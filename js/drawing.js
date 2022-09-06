@@ -257,8 +257,8 @@ function plotScores_Highcharts() {
   //translate
     $.get("https://script.google.com/macros/s/AKfycbwgbsRyBCuTPpt8zOHHK3v2lKqi1sTpjnZGnhRm_tK9yH-OMAU/exec?q="+scores[0][0]+"&source=en&target=zh-TW", function(data, status){
               
-       var String1 = data.split('translatedText":"');
-       var String2 = String1[1].split('"})');
+       //var String1 = data.split('translatedText":"');
+       //var String2 = String1[1].split('"})');
 	 
 	   var p_title = '可能是: ' + data ;  //String2
 
