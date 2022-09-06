@@ -260,7 +260,7 @@ function plotScores_Highcharts() {
        var String1 = data.split('translatedText":"');
        var String2 = String1[1].split('"})');
 	 
-	   var p_title = '可能是: ' + String2 ;
+	   var p_title = '可能是: ' + data ;  //String2
 
        // Configure Highcharts Plot
   
