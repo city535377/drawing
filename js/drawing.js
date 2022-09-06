@@ -255,7 +255,7 @@ function plotScores_Highcharts() {
   var p_o = getData_Highcharts();
   
   //translate
-    $.get("https://script.google.com/macros/s/AKfycbwkK5yj5cpMG-rMSZgZ5iVznUv964ONn8e5qI4mL5PZ1cMSEatK/exec?q="+scores[0][0]+"&source=en&target=zh-TW", function(data, status){
+    $.get("https://script.google.com/macros/s/AKfycbwgbsRyBCuTPpt8zOHHK3v2lKqi1sTpjnZGnhRm_tK9yH-OMAU/exec?q="+scores[0][0]+"&source=en&target=zh-TW", function(data, status){
               
        var String1 = data.split('translatedText":"');
        var String2 = String1[1].split('"})');
